@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Inter;
+  src: url("../components/fonts/Inter/static/Inter-Medium.ttf");
+}
+@font-face {
+  font-family: Inter;
+  src: url("../components/fonts/Inter/static/Inter-Bold.ttf");
+}
+@font-face {
+  font-family: Inter;
+  src: url("../components/fonts/Inter/static/Inter-Regular.ttf");
+}
+@font-face {
+  font-family: Poppins;
+  src: url("../components/fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: Poppins;
+  src: url("../components/fonts/Poppins/Poppins-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "./components/header";

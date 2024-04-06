@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.container {
+  width: 1210px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+input {
+  outline: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 101;
+}
+header .header_top {
+  background-color: black;
+  color: #fff;
+}
+header .header_top .header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header_top .header__top .header__top__two {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 0;
+}
+header .header_top .header__top .header__top__three select {
+  background: transparent;
+  border: none;
+  color: #fff;
+  outline: none;
+}
+header .header__bottom {
+  border-bottom: 1px solid #dacfcf;
+  background-color: #fff;
+}
+header .header__bottom .header__bottomm {
+  padding: 47px 0 23px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header__bottom .header__bottomm .header__botttom__logo a {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #000;
+}
+header .header__bottom .header__bottomm .header_bottom__nav {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+header .header__bottom .header__bottomm .header_bottom__nav .header__bottom_nav_links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+header .header__bottom .header__bottomm .header_bottom__nav .header__bottom_nav_links a {
+  color: #000000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  transition: 0.4s;
+}
+header .header__bottom .header__bottomm .header_bottom__nav .header__bottom_nav_links a:hover {
+  border-bottom: 1px solid #504848;
+}
+header .header__bottom .header__bottomm .header_bottom__nav .header__bottom_nav_item {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+header .header__bottom .header__bottomm .header_bottom__nav .header__bottom_nav_item svg {
+  width: 24px;
+  height: 24px;
+}
+header .header__bottom .header__bottomm .header_bottom__nav .header__bottom_nav_item .header__bottom_nav_item_input {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 34px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+header .header__bottom .header__bottomm .header_bottom__nav .header__bottom_nav_item .header__bottom_nav_item_input input {
+  border: none;
+  background: transparent;
+}
+header .header__bottom .burger {
+  display: none;
+}/*# sourceMappingURL=index.css.map */
