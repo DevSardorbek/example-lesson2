@@ -87,7 +87,8 @@ header .header__bottom .header__bottomm {
   align-items: center;
   justify-content: space-between;
 }
-header .header__bottom .header__bottomm .header__botttom__logo a {
+header .header__bottom .header__bottomm .header__botttom__logo p {
+  cursor: pointer;
   font-family: Inter;
   font-size: 24px;
   font-weight: 700;
@@ -106,7 +107,8 @@ header .header__bottom .header__bottomm .header_bottom__nav .header__bottom_nav_
   align-items: center;
   gap: 24px;
 }
-header .header__bottom .header__bottomm .header_bottom__nav .header__bottom_nav_links a {
+header .header__bottom .header__bottomm .header_bottom__nav .header__bottom_nav_links p {
+  cursor: pointer;
   color: #000000;
   font-family: Poppins;
   font-size: 16px;
@@ -115,7 +117,7 @@ header .header__bottom .header__bottomm .header_bottom__nav .header__bottom_nav_
   text-align: center;
   transition: 0.4s;
 }
-header .header__bottom .header__bottomm .header_bottom__nav .header__bottom_nav_links a:hover {
+header .header__bottom .header__bottomm .header_bottom__nav .header__bottom_nav_links p:hover {
   border-bottom: 1px solid #504848;
 }
 header .header__bottom .header__bottomm .header_bottom__nav .header__bottom_nav_item {

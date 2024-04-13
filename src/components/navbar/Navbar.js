@@ -17,7 +17,7 @@ function Navbar() {
                 Summer Sale For All Swim Suits And Free Express Delivery - OFF
                 50%!
               </p>
-              <a href="#">ShopNow</a>
+              <p>ShopNow</p>
             </div>
             <div className="header__top__three">
               <select>
@@ -31,16 +31,12 @@ function Navbar() {
         <div className="container">
           <div className="header__bottomm">
             <div className="header__botttom__logo">
-              <a href="#">Exclusive </a>
+              <p>Exclusive </p>
             </div>
             <div className="header_bottom__nav">
               <div className="header__bottom_nav_links">
                 {links.map((el, index) => {
-                  return (
-                    <a key={index} href="#">
-                      {el}
-                    </a>
-                  );
+                  return <p key={index}>{el}</p>;
                 })}
               </div>
               <div className="header__bottom_nav_item">

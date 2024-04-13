@@ -13,10 +13,10 @@ function Hero() {
               <p>iPhone 14 Series</p>
             </div>
             <h1>Up to 10% off Voucher</h1>
-            <a href="#">
+            <p>
               <span>Shop Now</span>
               <img src="./img/hero_right.png" alt="" />
-            </a>
+            </p>
           </div>
           <div className="hero__section_img">
             <img src={banner} alt="img" />
