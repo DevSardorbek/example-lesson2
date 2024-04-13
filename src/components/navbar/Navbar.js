@@ -36,7 +36,11 @@ function Navbar() {
             <div className="header_bottom__nav">
               <div className="header__bottom_nav_links">
                 {links.map((el, index) => {
-                  return <a key={index} href="#">{el}</a>;
+                  return (
+                    <a key={index} href="#">
+                      {el}
+                    </a>
+                  );
                 })}
               </div>
               <div className="header__bottom_nav_item">
